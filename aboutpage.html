@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      * {
+        margin: auto;
+        padding: auto;
+        width: auto;
+      }
+      #im {
+        background-color: black;
+        padding: 50px 0;
+      }
+      #im .container h1 {
+        font-size: 25px;
+        margin-top: 150px;
+        text-align: left;
+      }
+
+      #im .container h4 {
+        margin-top: 10px;
+        text-align: left;
+      }
+
+      #im .container form {
+        margin-top: 50px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px white;
+        background-color: rgb(250, 250, 250);
+        height: 430px;
+        width: 350px;
+        justify-content: right;
+        float: right !important;
+      }
+
+      #im .container form input {
+        width: 300px;
+      }
+
+      #im .container form input {
+        padding: 10px;
+        margin: 20px;
+      }
+
+      #im .container form button {
+        background-color: #fc2f2f;
+        color: white;
+        border-radius: 10px;
+      }
+
+      #im .container h2 {
+        font-size: 25px;
+        margin-bottom: -20px;
+        padding-bottom: -20px;
+        margin-top: 20px;
+        padding-top: 20px;
+        text-align: center;
+      }
+
+      /*Moblie Navigaion*/
+
+      @media screen and (min-width: 320px) and (max-width: 370px) {
+        #im img {
+          width: 45px;
+          height: 35px;
+        }
+        #im .container h1 {
+          font-size: 22px;
+          margin-top: 100px;
+          margin-left: auto;
+        }
+        #im .container h4 {
+          font-size: 18px;
+          text-align: center;
+        }
+        #im .container form {
+          width: 290px;
+          height: 340px;
+          margin-right: auto;
+        }
+        #im .container form h2 {
+          font-size: 20px;
+          margin-top: -8px;
+        }
+        #im .container form input {
+          width: 240px;
+          height: 40px;
+        }
+      }
+
+      @media screen and (min-width: 370px) and (max-width: 570px) {
+        #im img {
+          width: 60px;
+          height: 30px;
+        }
+        #im .container h1 {
+          margin-top: 18px;
+          font-size: 20px;
+        }
+        #im .container h4 {
+          font-size: 20px;
+        }
+        #im .container form h2 {
+          font-size: 22px;
+          margin-top: 2px;
+        }
+        #im .container form {
+          width: 330px;
+          height: 350px;
+          margin-bottom: 20px;
+          margin-right: 25px;
+        }
+        #im .container form input {
+          width: 230px;
+          height: 35px;
+          margin-left: 45px;
+        }
+      }
+
+      @media screen and (min-width: 456px) and (max-width: 576px) {
+        #im h1 {
+          font-size: 25px;
+          margin-top: -10px;
+        }
+        #im h4 {
+          font-size: 15px;
+        }
+        #im .container form {
+          width: 320px;
+          margin-right: 90px;
+          height: 330px;
+        }
+        #im .container form h2 {
+          font-size: 22px;
+          margin-top: -10px;
+          margin-right: 20px;
+        }
+        #im .container form input {
+          width: 240px;
+          margin-left: 35px;
+          height: 38px;
+        }
+      }
+
+      .sidebar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: gray;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+
+      .sidebar div {
+        padding: 8px 8px 8px 30px;
+        font-size: 24px;
+        display: block;
+        transition: 0.5s;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="px-5">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#">
+            <img src="./public/assest/image/logo2.png" alt="" height="100px" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="./index.html">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./aboutpage.html">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./blogpage.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contactpage.html">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="./loginpage.html">Login </a>
+                  <a class="dropdown-item" href="./registration.html"
+                    >Register</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section id="im">
+      <!--   
+<a class="text-light" href="http://127.0.0.1:8000/edit/1">update</a> -->
+      <div class="col-sm-3">
+        <!-- 
+    <img src="assest/image/logo.jpg" class="m-4" width="50px" height="50px"> -->
+      </div>
+      <div class="container">
+        <div class="row justify-content">
+          <div
+            class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 ml-4 text-center"
+          >
+            <h1 class="text-light">Coming Soon...</h1>
+            <br />
+            <h4 class="text-light">#destination to #destination</h4>
+            <h4 class="text-light">#destination to #destination</h4>
+          </div>
+
+          <div
+            class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-5"
+          >
+            <!--        
+<a class="text-light" href="http://127.0.0.1:8000/agentpackages?userid=1">Add Packages</a> -->
+
+            <form class="mr-5">
+              <h2>Don't Wait. Enquiry Now!</h2>
+              <br />
+              <input
+                type="Name"
+                placeholder="what your Name"
+                name="name"
+                class="form-control"
+              />
+
+              <input
+                type="date"
+                placeholder="Travel Date"
+                name="num"
+                class="form-control"
+              />
+
+              <input
+                type="Number"
+                placeholder="where"
+                name="palce"
+                class="form-control"
+              />
+
+              <input
+                type="Number"
+                placeholder="Phone Number"
+                name="contact"
+                class="form-control"
+              />
+              <center>
+                <button>Book Now</button>
+              </center>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+    </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
