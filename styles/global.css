@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"); */
 * {
   margin: auto;
   padding: auto;
@@ -10,11 +10,108 @@
   max-width: 160px;
 }
 
-#im {
+.hero__section {
   min-height: 100vh;
   background-image: url("../public/assest/image/front4.jpeg");
   background-image: no-repeat;
   background-size: cover;
+  /* filter: brightness(0.7); */
+  opacity: 1.5;
+
+  z-index: 0;
+  color: white;
+}
+.hero__section--form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero__section--content {
+  display: flex;
+  /* width: 100%; */
+
+  justify-content: space-between;
+  align-items: center;
+  height: 600px;
+  padding: 20px;
+}
+.hero__section--left {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.hero__section--left h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+.hero__left--lowerText h2 {
+  font-size: 30px;
+  font-weight: 900;
+}
+.hero__section--right {
+  border: 1px solid white;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  gap: 35px;
+}
+.hero__section--right input {
+  width: 350px;
+}
+.homePage__checkboxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.agreeMessage {
+  font-size: 10px;
+  font-family: cursive;
+  margin-top: -5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 13px;
+}
+
+.checkbox__box input {
+  width: 20px;
+  border-radius: 50%;
+}
+.hero__section--form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+@media (max-width: 786px) {
+  .hero__section--content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .hero__section {
+    height: fit-content;
+  }
+  .hero__section--content {
+    height: auto;
+  }
+}
+@media (max-width: 480px) {
+  .form-outline input {
+    width: 250px;
+  }
+  .hero__section--left h1 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .hero__left--lowerText h2 {
+    font-size: 20px;
+    font-weight: 600;
+  }
 }
 
 #im .container .row {
@@ -526,6 +623,7 @@ max-width: 100px;
     margin-left: 0;
   }
 }
+
 .blog__image {
   height: 400px;
 }
@@ -533,6 +631,7 @@ max-width: 100px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
 .latest__booked--cards {
   display: grid;
   gap: 10px;
@@ -580,5 +679,8 @@ max-width: 100px;
   .blog__image {
     height: 240px;
     width: 240px;
+  }
+  .card__text {
+    font-size: 12px;
   }
 }
