@@ -470,7 +470,7 @@ max-width: 100px;
 
 .container {
   width: 85%;
-  background-image: url("public/assest/image/room1.jpg");
+  /* background-image: url("../public/assest/image/room1.jpg"); */
   background-image: no-repeat;
   background-size: cover;
   box-sizing: border-box;
