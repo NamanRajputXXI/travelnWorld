@@ -1,4 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 * {
   margin: auto;
   padding: auto;
@@ -470,7 +470,7 @@ max-width: 100px;
 
 .container {
   width: 85%;
-  background-image: url("public/assest/image/room1.jpg");
+  /* background-image: url("../public/assest/image/room1.jpg"); */
   background-image: no-repeat;
   background-size: cover;
   box-sizing: border-box;
