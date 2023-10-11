@@ -211,7 +211,7 @@ max-width: 100px;
   * {
     margin: auto;
     padding: auto;
-    width: auto;
+    /* width: auto; */
   }
   #crd {
     display: none;
@@ -452,7 +452,7 @@ max-width: 100px;
 .right-side .input-box input,
 .right-side .input-box textarea {
   height: 100%;
-  width: 70%;
+  width: 100%;
   border: none;
   outline: none;
   font-size: 16px;
