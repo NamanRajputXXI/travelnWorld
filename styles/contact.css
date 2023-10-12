@@ -6,7 +6,7 @@
 }
 .contact__main--content {
   display: flex;
-  width: 80%;
+  width: 100%;
   justify-content: center;
   align-items: center;
 }
@@ -16,7 +16,7 @@
   /* align-items: center; */
   flex-direction: column;
   justify-content: flex-start;
-  gap: 30px;
+  gap: 31px;
 }
 
 .contact__detail {
