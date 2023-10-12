@@ -116,7 +116,11 @@
           </div>
           <div class="hero__section--right">
             <h3>Fill the form to start now</h3>
-            <form class="hero__section--form">
+            <form
+              class="hero__section--form"
+              id="hero__section--form"
+              name="heroContact-form"
+            >
               <div class="form-outline">
                 <input
                   type="number"
@@ -129,7 +133,7 @@
               <div class="form-outline">
                 <input
                   type="email"
-                  id="form2Example1"
+                  id="form2Example2"
                   placeholder="Email"
                   class="form-control"
                 />
@@ -137,23 +141,41 @@
               <div class="form-outline">
                 <input
                   type="text"
-                  id="form2Example1"
+                  id="form2Example3"
                   placeholder="Company Name"
                   class="form-control"
                 />
               </div>
-              <div class="homePage__checkboxes">
+              <!-- <div class="homePage__checkboxes">
                 <div class="checkbox__box">
-                  <input type="checkbox" value="" />
+                  <input type="checkbox" value="travel__agency" />
                   <label for="checkbox">Travel Agency</label>
                 </div>
                 <div class="checkbox__box">
-                  <input type="checkbox" value="" />
+                  <input type="checkbox" value="dmc" />
                   <label for="checkbox">DMC</label>
                 </div>
                 <div class="checkbox__box">
-                  <input type="checkbox" value="" />
+                  <input type="checkbox" value="hotel" />
                   <label for="checkbox">Hotel</label>
+                </div>
+              </div> -->
+              <div class="homePage__checkboxes">
+                <div class="checkbox__box">
+                  <input
+                    type="checkbox"
+                    id="travel__agency"
+                    value="travel__agency"
+                  />
+                  <label for="travel__agency">Travel Agency</label>
+                </div>
+                <div class="checkbox__box">
+                  <input type="checkbox" id="dmc" value="dmc" />
+                  <label for="dmc">DMC</label>
+                </div>
+                <div class="checkbox__box">
+                  <input type="checkbox" id="hotel" value="hotel" />
+                  <label for="hotel">Hotel</label>
                 </div>
               </div>
 
@@ -162,8 +184,8 @@
               </button>
 
               <div class="checkbox__box agreeMessage">
-                <input type="checkbox" value="" />
-                <label for="checkbox"
+                <input type="checkbox" value="notification" id="notification" />
+                <label for="notification"
                   >I agree to get all Email/SMS from you</label
                 >
               </div>
@@ -182,7 +204,6 @@
           </div>
 
           <div class="col-lg-6">
-            <!-- TODO :  THIS SHOULD BE FIX STYLING ISSUES IN COROUSEL LEADS THE HORIZONTAL SCROLLBAR -->
             <div
               id="carouselExampleIndicators"
               class="carousel slide"
