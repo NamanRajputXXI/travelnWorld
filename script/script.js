@@ -1,9 +1,12 @@
 function myFunction() {
+  var y = document.getElementById("readMore");
   var x = document.getElementById("myDIV");
   if (x.style.display === "none") {
     x.style.display = "block";
+    y.innerText = "Read Less";
   } else {
     x.style.display = "none";
+    y.innerText = "Read More";
   }
 }
 
