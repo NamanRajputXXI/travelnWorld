@@ -16,6 +16,7 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./styles/global.css" />
 
     <style>
       * {
@@ -185,7 +186,7 @@
       <div class="px-5">
         <nav class="navbar navbar-expand-lg navbar-light">
           <a class="navbar-brand" href="./index.html">
-            <img src="./public/assest/image/logo2.png" alt="" height="100px" />
+            <img src="./public/assest/image/logo1.png" alt="" height="50px" />
           </a>
           <button
             class="navbar-toggler"
@@ -202,7 +203,9 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="./index.html">Home </a>
+                <a class="nav-link" href="./index.html"
+                  >Home <span class="sr-only"></span
+                ></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./aboutpage.html">About</a>
@@ -233,6 +236,16 @@
                   >
                 </div>
               </li>
+              <div class="login-register-btns">
+                <li class="tg-text-end">
+                  <button type="button" class="btn btn-outline-primary me-2">
+                    Login
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="btn btn-primary">Sign-up</button>
+                </li>
+              </div>
             </ul>
           </div>
         </nav>
