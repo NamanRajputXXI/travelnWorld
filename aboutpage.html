@@ -77,6 +77,10 @@
       /*Moblie Navigaion*/
 
       @media screen and (min-width: 320px) and (max-width: 370px) {
+        .about_form {
+          position: relative;
+          left: 20px;
+        }
         #im img {
           width: 45px;
           height: 35px;
@@ -91,16 +95,15 @@
           text-align: center;
         }
         #im .container form {
-          width: 290px;
+          width: 270px;
           height: 340px;
-          margin-right: auto;
         }
         #im .container form h2 {
           font-size: 20px;
           margin-top: -8px;
         }
         #im .container form input {
-          width: 240px;
+          width: 210px;
           height: 40px;
         }
       }
@@ -122,15 +125,14 @@
           margin-top: 2px;
         }
         #im .container form {
-          width: 330px;
+          width: 300px;
           height: 350px;
           margin-bottom: 20px;
-          margin-right: 25px;
         }
         #im .container form input {
-          width: 230px;
+          width: 200px;
           height: 35px;
-          margin-left: 45px;
+          margin-left: 25px;
         }
       }
 
@@ -238,12 +240,18 @@
               </li>
               <div class="login-register-btns">
                 <li class="tg-text-end">
-                  <button type="button" class="btn btn-outline-primary me-2">
-                    Login
-                  </button>
+                  <a href="./loginpage.html">
+                    <button type="button" class="btn btn-outline-primary me-2">
+                      Login
+                    </button>
+                  </a>
                 </li>
                 <li>
-                  <button type="button" class="btn btn-primary">Sign-up</button>
+                  <a href="./registration.html">
+                    <button type="button" class="btn btn-primary">
+                      Sign-up
+                    </button>
+                  </a>
                 </li>
               </div>
             </ul>
@@ -271,7 +279,7 @@
             <!--        
 <a class="text-light" href="http://127.0.0.1:8000/agentpackages?userid=1">Add Packages</a> -->
 
-            <form class="mr-5" id="about__page--form" name="about-form">
+            <form class="about_form" id="about__page--form" name="about-form">
               <h2>Don't Wait. Enquiry Now!</h2>
               <br />
               <input
