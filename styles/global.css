@@ -657,8 +657,10 @@ max-width: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+
   /* height: 80vh; */
   margin-top: 50px;
+  padding: 50px 20px;
   margin-bottom: 50px;
 }
 @media (max-width: 1024px) {
