@@ -17,177 +17,18 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./styles/global.css" />
-
-    <style>
-      * {
-        margin: auto;
-        padding: auto;
-        width: auto;
-      }
-      #im {
-        background-color: black;
-        padding: 50px 0;
-      }
-      #im .container h1 {
-        font-size: 25px;
-        margin-top: 150px;
-        text-align: left;
-      }
-
-      #im .container h4 {
-        margin-top: 10px;
-        text-align: left;
-      }
-
-      #im .container form {
-        margin-top: 50px;
-        border-radius: 10px;
-        box-shadow: 2px 2px 2px white;
-        background-color: rgb(250, 250, 250);
-        height: 430px;
-        width: 350px;
-        justify-content: right;
-        float: right !important;
-      }
-
-      #im .container form input {
-        width: 300px;
-      }
-
-      #im .container form input {
-        padding: 10px;
-        margin: 20px;
-      }
-
-      #im .container form button {
-        background-color: #fc2f2f;
-        color: white;
-        border-radius: 10px;
-      }
-
-      #im .container h2 {
-        font-size: 25px;
-        margin-bottom: -20px;
-        padding-bottom: -20px;
-        margin-top: 20px;
-        padding-top: 20px;
-        text-align: center;
-      }
-
-      /*Moblie Navigaion*/
-
-      @media screen and (min-width: 320px) and (max-width: 370px) {
-        .about_form {
-          position: relative;
-          left: 20px;
-        }
-        #im img {
-          width: 45px;
-          height: 35px;
-        }
-        #im .container h1 {
-          font-size: 22px;
-          margin-top: 100px;
-          margin-left: auto;
-        }
-        #im .container h4 {
-          font-size: 18px;
-          text-align: center;
-        }
-        #im .container form {
-          width: 270px;
-          height: 340px;
-        }
-        #im .container form h2 {
-          font-size: 20px;
-          margin-top: -8px;
-        }
-        #im .container form input {
-          width: 210px;
-          height: 40px;
-        }
-      }
-
-      @media screen and (min-width: 370px) and (max-width: 570px) {
-        #im img {
-          width: 60px;
-          height: 30px;
-        }
-        #im .container h1 {
-          margin-top: 18px;
-          font-size: 20px;
-        }
-        #im .container h4 {
-          font-size: 20px;
-        }
-        #im .container form h2 {
-          font-size: 22px;
-          margin-top: 2px;
-        }
-        #im .container form {
-          width: 300px;
-          height: 350px;
-          margin-bottom: 20px;
-        }
-        #im .container form input {
-          width: 200px;
-          height: 35px;
-          margin-left: 25px;
-        }
-      }
-
-      @media screen and (min-width: 456px) and (max-width: 576px) {
-        #im h1 {
-          font-size: 25px;
-          margin-top: -10px;
-        }
-        #im h4 {
-          font-size: 15px;
-        }
-        #im .container form {
-          width: 320px;
-          margin-right: 90px;
-          height: 330px;
-        }
-        #im .container form h2 {
-          font-size: 22px;
-          margin-top: -10px;
-          margin-right: 20px;
-        }
-        #im .container form input {
-          width: 240px;
-          margin-left: 35px;
-          height: 38px;
-        }
-      }
-
-      .sidebar {
-        height: 100%;
-        width: 0;
-        position: fixed;
-        top: 0;
-        left: 0;
-        background-color: gray;
-        overflow-x: hidden;
-        transition: 0.5s;
-        padding-top: 60px;
-      }
-
-      .sidebar div {
-        padding: 8px 8px 8px 30px;
-        font-size: 24px;
-        display: block;
-        transition: 0.5s;
-        cursor: pointer;
-      }
-    </style>
   </head>
 
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="./index.html">
-          <img src="./public/assest/image/logo1.png" alt="" height="50px" />
+          <img
+            class="px-2"
+            src="./public/assest/image/logo1.png"
+            alt=""
+            height="50px"
+          />
         </a>
         <button
           class="navbar-toggler"
@@ -254,75 +95,54 @@
       </nav>
     </header>
 
-    <section id="im">
-      <div class="col-sm-3"></div>
-      <div class="container">
-        <div class="row justify-content">
-          <div
-            class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 ml-4 text-center"
-          >
-            <h1 class="text-light">Coming Soon...</h1>
-            <br />
-            <h4 class="text-light">#destination to #destination</h4>
-            <h4 class="text-light">#destination to #destination</h4>
+    <div class="position-relative hero__section--about">
+      <div class="hero__section--content-about">
+        <h1 class="">Travel Packages</h1>
+        <h3>Traveler Booked their Tour</h3>
+
+        <button class="text-light btn btn-primary">Read More</button>
+      </div>
+    </div>
+    <section class="about">
+      <div class="travelnWorld__details">
+        <h1>About Travel and World</h1>
+        <p>
+          HelloTravel is a marketplace where you get travel packages &amp;
+          holiday deals by trusted travel agents across the world. You may
+          enquire about a trip package or customize your holiday. We connect you
+          with Verified travel agents who provide you best quotes. Check their
+          reviews and book with the one you like most.
+        </p>
+        <p>
+          We have a network of 7000+ reputed and trusted travel agents. Each of
+          these names have well planned travel itinerary to suit your need,
+          taste and budget.
+        </p>
+      </div>
+
+      <div class="about__section--stats">
+        <div class="d-flex w-100">
+          <div>
+            <p>500000+ Enquiries/month</p>
+            <p>Travelers booked their tour</p>
           </div>
-
-          <div
-            class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-5"
-          >
-            <!--        
-<a class="text-light" href="http://127.0.0.1:8000/agentpackages?userid=1">Add Packages</a> -->
-
-            <form class="about_form" id="about__page--form" name="about-form">
-              <h2>Don't Wait. Enquiry Now!</h2>
-              <br />
-              <input
-                type="Name"
-                placeholder="what your Name"
-                name="name"
-                class="form-control"
-              />
-
-              <input
-                type="date"
-                placeholder="Travel Date"
-                name="num"
-                class="form-control"
-              />
-
-              <input
-                type="Number"
-                placeholder="where"
-                name="palce"
-                class="form-control"
-              />
-
-              <input
-                type="Number"
-                placeholder="Phone Number"
-                name="contact"
-                class="form-control"
-              />
-              <center>
-                <button>Book Now</button>
-              </center>
-            </form>
+          <div>
+            <p>$200 Million+ worth annual booking</p>
+            <p>Our ecosystem fuels 100000+ houses</p>
+          </div>
+        </div>
+        <div class="d-flex w-100">
+          <div>
+            <p>7000+ local experts</p>
+            <p>From all over the globe. 10% International tour operators</p>
+          </div>
+          <div>
+            <p>21000+ packages</p>
+            <p>More than 1000 destinations covered</p>
           </div>
         </div>
       </div>
     </section>
-
-    <script>
-      function openNav() {
-        document.getElementById("mySidebar").style.width = "250px";
-        document.getElementById("main").style.marginLeft = "250px";
-      }
-
-      function closeNav() {
-        document.getElementById("mySidebar").style.width = "0";
-        document.getElementById("main").style.marginLeft = "0";
-      }
-    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -21,6 +21,50 @@
   z-index: 0;
   color: white;
 }
+.hero__section--about {
+  min-height: 400px;
+  background-image: url("../public/assest/image/aboutBanner.jpg");
+  background-image: no-repeat;
+  background-size: cover;
+
+  opacity: 1.5;
+
+  z-index: 0;
+  color: white;
+}
+
+.hero__section--content-about {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+.about {
+  width: 90%;
+
+  margin-right: auto;
+  padding: 50px 20px;
+  margin-left: auto;
+}
+.about__section--stats {
+  width: 90%;
+}
+.hero__section--content-about button {
+  width: 200px;
+  height: 50px;
+  outline: none;
+  border: none;
+}
+.hero__section--content-about h1 {
+  font-size: 70px;
+  font-weight: 700;
+}
+.hero__section--content-about h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
 .hero__section--form {
   display: flex;
   justify-content: center;
