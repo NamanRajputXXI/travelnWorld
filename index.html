@@ -47,11 +47,33 @@
     <link rel="stylesheet" href="./styles/global.css" />
 
     <script src="./script/script.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
   </head>
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar container navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="./index.html">
           <img src="./public/assest/image/logo1.png" alt="" height="50px" />
         </a>
@@ -84,7 +106,7 @@
             <li class="nav-item">
               <a class="nav-link" href="./contactpage.html">Contact</a>
             </li>
-          
+
             <div class="login-register-btns">
               <li class="tg-text-end">
                 <a href="./loginpage.html">
@@ -183,400 +205,193 @@
       </div>
     </header>
 
-    <section id="slide" style="background-color: azure">
-      <br />
+    <section class="py-5">
       <div class="container-fluid" id="mid">
-        <div class="row p-2">
-          <div class="col-lg-6">
-            <img src="./public/assest/image/banner.jpeg" />
-          </div>
+        <div class="owl-carousel owl-carousel1 py-5">
+          <img
+            src="https://travelnworld.com/public/assest/image/77435.gif"
+            class="w-50 h-50"
+            alt="..."
+          />
+          <img
+            src="https://travelnworld.com/public/assest/image/83119.gif"
+            class="w-50 h-50"
+            alt="..."
+          />
+          <img
+            src="https://travelnworld.com/public/assest/image/80801.gif"
+            class="w-50 h-50"
+            alt="..."
+          />
+          <img
+            src="https://travelnworld.com/public/assest/image/83119.gif"
+            class="w-50 h-50"
+            alt="..."
+          />
+          <img
+            src="https://travelnworld.com/public/assest/image/75495.gif"
+            class="w-50 h-50"
+            alt="..."
+          />
+          <img
+            src="https://travelnworld.com/public/assest/image/76939.gif"
+            class="w-50 h-50"
+            alt="..."
+          />
+          <img
+            src="https://travelnworld.com/public/assest/image/78538.gif"
+            class="w-50 h-50"
+            alt="..."
+          />
+          <img
+            src="https://travelnworld.com/public/assest/image/77435.gif"
+            class="w-50 h-50"
+            alt="..."
+          />
+          <img
+            src="https://travelnworld.com/public/assest/image/75495.gif"
+            class="w-50 h-50"
+            alt="..."
+          />
+          <img
+            src="https://travelnworld.com/public/assest/image/77928.gif"
+            class="w-50 h-50"
+            alt="..."
+          />
 
-          <div class="col-lg-6">
-            <div
-              id="carouselExampleIndicators"
-              class="carousel slide"
-              data-ride="carousel"
-            >
-              <div class="carousel-indicators">
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="0"
-                  class="active"
-                  aria-current="true"
-                  aria-label="Slide 1"
-                  data-interval="100"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="1"
-                  aria-label="Slide 2"
-                  data-interval="100"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="2"
-                  aria-label="Slide 3"
-                  data-interval="100"
-                ></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img
-                    src="https://travelnworld.com/public/assest/image/75495.gif"
-                    class="w-25 h-25 m-5"
-                    alt="..."
-                  />
-                  <img
-                    src="https://travelnworld.com/public/assest/image/77928.gif"
-                    class="w-25 h-25 m-5"
-                    alt="..."
-                  />
-                  <br /><br />
-                  <img
-                    src="https://travelnworld.com/public/assest/image/83119.gif"
-                    class="w-25 h-25 m-5"
-                    alt="..."
-                  />
-                  <img
-                    src="https://travelnworld.com/public/assest/image/80801.gif"
-                    class="w-25 h-25 m-5"
-                    alt="..."
-                  />
-                </div>
-                <div class="carousel-item ml-5">
-                  <img
-                    src="https://travelnworld.com/public/assest/image/78538.gif"
-                    class="w-25 h-25 m-5"
-                    alt="..."
-                  />
-                  <img
-                    src="https://travelnworld.com/public/assest/image/77435.gif"
-                    class="w-25 h-25 m-5"
-                    alt="..."
-                  />
-                  <br /><br />
-                  <img
-                    src="https://travelnworld.com/public/assest/image/76939.gif"
-                    class="w-25 h-25 m-5"
-                    alt="..."
-                  />
-                  <img
-                    src="https://travelnworld.com/public/assest/image/75495.gif"
-                    class="w-25 h-25 m-5"
-                    alt="..."
-                  />
-                </div>
-                <div class="carousel-item ml-5">
-                  <img
-                    src="https://travelnworld.com/public/assest/image/83119.gif"
-                    class="w-25 h-25 m-5"
-                    alt="..."
-                  />
-                  <img
-                    src="https://travelnworld.com/public/assest/image/80801.gif"
-                    class="w-25 h-25 m-5"
-                    alt="..."
-                  />
-                  <br /><br />
-                  <img
-                    src="https://travelnworld.com/public/assest/image/83119.gif"
-                    class="w-25 h-25 m-5"
-                    alt="..."
-                  />
-                  <img
-                    src="https://travelnworld.com/public/assest/image/77435.gif"
-                    class="w-25 h-25 m-5"
-                    alt="..."
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
+          <img
+            src="https://travelnworld.com/public/assest/image/83119.gif"
+            class="w-50 h-50"
+            alt="..."
+          />
+          <img
+            src="https://travelnworld.com/public/assest/image/80801.gif"
+            class="w-50 h-50"
+            alt="..."
+          />
+        </div>
+        <div class="col-lg-12">
+          <img src="./public/assest/image/banner.jpeg" class="w-100" />
         </div>
       </div>
     </section>
 
-    <section id="crd" style="background-color: grey">
-      <div
-        id="carouselExampleControls"
-        class="carousel slide"
-        data-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="cards-wrapper">
-              <div class="card">
-                <div class="row ml-2">
-                  <div class="col-lg-4">
-                    <img
-                      src="https://travelnworld.com/public/assest/image/room1.jpg"
-                      class="img-fluid rounded-start"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="col-lg-8">
-                    <div class="card-body">
-                      <h6 class="card-title mb-2">Card title</h6>
-                      <p class="card-text" style="font-size: 14px">
-                        14days/13 Night<br />Hyderabad,jeddaga,Mecca
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="row ml-2">
-                  <div class="col-lg-4">
-                    <img
-                      src="https://travelnworld.com/public/assest/image/room1.jpg"
-                      class="img-fluid rounded-start"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="col-lg-8">
-                    <div class="card-body">
-                      <h6 class="card-title mb-2">Card title</h6>
-                      <p class="card-text" style="font-size: 14px">
-                        14days/13 Night<br />Hyderabad,jeddaga,Mecca
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="row ml-2">
-                  <div class="col-lg-4">
-                    <img
-                      src="https://travelnworld.com/public/assest/image/resort.jpg"
-                      class="img-fluid rounded-start"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="col-lg-8 col-8">
-                    <div class="card-body">
-                      <h6 class="card-title mb-2">Card title</h6>
-                      <p class="card-text" style="font-size: 14px">
-                        14days/13 Night<br />Hyderabad,jeddaga,Mecca
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="row ml-2">
-                  <div class="col-lg-4">
-                    <img
-                      src="https://travelnworld.com/public/assest/image/room1.jpg"
-                      class="img-fluid rounded-start"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="col-lg-8">
-                    <div class="card-body">
-                      <h6 class="card-title mb-2">Card title</h6>
-                      <p class="card-text" style="font-size: 14px">
-                        14days/13 Night<br />Hyderabad,jeddaga,Mecca
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+    <section>
+      <div class="owl-carousel owl-carousel2 py-5">
+        <div class="card">
+          <div class="d-flex border">
+            <div class="col-lg-6 p-0">
+              <img
+                src="https://travelnworld.com/public/assest/image/resort.jpg"
+                class="img-fluid rounded-start"
+                alt="..."
+              />
             </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="cards-wrapper">
-              <div class="card">
-                <div class="row ml-2">
-                  <div class="col-lg-4">
-                    <img
-                      src="https://travelnworld.com/public/assest/image/room1.jpg"
-                      class="img-fluid rounded-start"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="col-lg-8">
-                    <div class="card-body">
-                      <h6 class="card-title mb-2">Card title</h6>
-                      <p class="card-text" style="font-size: 14px">
-                        14days/13 Night<br />Hyderabad,jeddaga,Mecca
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="row ml-2">
-                  <div class="col-lg-4">
-                    <img
-                      src="https://travelnworld.com/public/assest/image/offer.jpeg"
-                      class="img-fluid rounded-start"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="col-lg-8">
-                    <div class="card-body">
-                      <h6 class="card-title mb-2">Card title</h6>
-                      <p class="card-text" style="font-size: 14px">
-                        14days/13 Night<br />Hyderabad,jeddaga,Mecca
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="row ml-2">
-                  <div class="col-lg-4">
-                    <img
-                      src="https://travelnworld.com/public/assest/image/room1.jpg"
-                      class="img-fluid rounded-start"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="col-lg-8">
-                    <div class="card-body">
-                      <h6 class="card-title mb-2">Card title</h6>
-                      <p class="card-text" style="font-size: 14px">
-                        14days/13 Night<br />Hyderabad,jeddaga,Mecca
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="row ml-2">
-                  <div class="col-lg-4">
-                    <img
-                      src="https://travelnworld.com/public/assest/image/room1.jpg"
-                      class="img-fluid rounded-start"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="col-lg-8">
-                    <div class="card-body">
-                      <h6 class="card-title mb-2">Card title</h6>
-                      <p class="card-text" style="font-size: 14px">
-                        14days/13 Night<br />Hyderabad,jeddaga,Mecca
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="cards-wrapper">
-              <div class="card">
-                <div class="row ml-2">
-                  <div class="col-lg-4">
-                    <img
-                      src="https://travelnworld.com/public/assest/image/front2.jpeg"
-                      class="img-fluid rounded-start"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="col-lg-8">
-                    <div class="card-body">
-                      <h6 class="card-title mb-2">Card title</h6>
-                      <p class="card-text" style="font-size: 14px">
-                        14days/13 Night<br />Hyderabad,jeddaga,Mecca
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="row ml-2">
-                  <div class="col-lg-4">
-                    <img
-                      src="https://travelnworld.com/public/assest/image/room1.jpg"
-                      class="img-fluid rounded-start"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="col-lg-8">
-                    <div class="card-body">
-                      <h6 class="card-title mb-2">Card title</h6>
-                      <p class="card-text" style="font-size: 14px">
-                        14days/13 Night<br />Hyderabad,jeddaga,Mecca
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="row ml-2">
-                  <div class="col-lg-4">
-                    <img
-                      src="https://travelnworld.com/public/assest/image/room1.jpg"
-                      class="img-fluid rounded-start"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="col-lg-8">
-                    <div class="card-body">
-                      <h6 class="card-title mb-2">Card title</h6>
-                      <p class="card-text" style="font-size: 14px">
-                        14days/13 Night<br />Hyderabad,jeddaga,Mecca
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="row ml-2">
-                  <div class="col-lg-4">
-                    <img
-                      src="https://travelnworld.com/public/assest/image/resort.jpg"
-                      class="img-fluid rounded-start"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="col-lg-8">
-                    <div class="card-body">
-                      <h6 class="card-title mb-2">Card title</h6>
-                      <p class="card-text" style="font-size: 14px">
-                        14days/13 Night<br />Hyderabad,jeddaga,Mecca
-                      </p>
-                    </div>
-                  </div>
-                </div>
+            <div class="col-lg-6">
+              <div class="card-body">
+                <h6 class="card-title mb-2">Card title</h6>
+                <p class="card-text" style="font-size: 12px">
+                  14days/13 Night<br />Hyderabad,jeddaga,Mecca
+                </p>
               </div>
             </div>
           </div>
         </div>
-
-        <a
-          class="carousel-control-prev"
-          href="#carouselExampleControls"
-          role="button"
-          data-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a
-          class="carousel-control-next"
-          href="#carouselExampleControls"
-          role="button"
-          data-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+        <div class="card" style="height: 200px">
+          <div class="d-flex border">
+            <div class="col-lg-6 p-0">
+              <img
+                src="https://travelnworld.com/public/assest/image/room1.jpg"
+                class="img-fluid rounded-start"
+                alt="..."
+              />
+            </div>
+            <div class="col-lg-6">
+              <div class="card-body">
+                <h6 class="card-title mb-2">Card title</h6>
+                <p class="card-text" style="font-size: 12px">
+                  14days/13 Night<br />Hyderabad,jeddaga,Mecca
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="d-flex border">
+            <div class="col-lg-6 p-0">
+              <img
+                src="https://travelnworld.com/public/assest/image/front2.jpeg"
+                class="img-fluid rounded-start"
+                alt="..."
+              />
+            </div>
+            <div class="col-lg-6">
+              <div class="card-body">
+                <h6 class="card-title mb-2">Card title</h6>
+                <p class="card-text" style="font-size: 12px">
+                  14days/13 Night<br />Hyderabad,jeddaga,Mecca
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="d-flex border">
+            <div class="col-lg-6 p-0">
+              <img
+                src="https://travelnworld.com/public/assest/image/offer.jpeg"
+                class="img-fluid rounded-start"
+                alt="..."
+              />
+            </div>
+            <div class="col-lg-6">
+              <div class="card-body">
+                <h6 class="card-title mb-2">Card title</h6>
+                <p class="card-text" style="font-size: 12px">
+                  14days/13 Night<br />Hyderabad,jeddaga,Mecca
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="d-flex border">
+            <div class="col-lg-6 p-0">
+              <img
+                src="https://travelnworld.com/public/assest/image/offer.jpeg"
+                class="img-fluid rounded-start"
+                alt="..."
+              />
+            </div>
+            <div class="col-lg-6">
+              <div class="card-body">
+                <h6 class="card-title mb-2">Card title</h6>
+                <p class="card-text" style="font-size: 12px">
+                  14days/13 Night<br />Hyderabad,jeddaga,Mecca
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="d-flex border">
+            <div class="col-lg-6 p-0">
+              <img
+                src="https://travelnworld.com/public/assest/image/resort.jpg"
+                class="img-fluid rounded-start"
+                alt="..."
+              />
+            </div>
+            <div class="col-lg-8">
+              <div class="card-body">
+                <h6 class="card-title mb-2">Card title</h6>
+                <p class="card-text" style="font-size: 12px">
+                  14days/13 Night<br />Hyderabad,jeddaga,Mecca
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -984,8 +799,8 @@
     <section id="client " class="mt-5">
       <div class="container">
         <h1 class="text-center mb-5">What Clients Are Saying About Us</h1>
-        <div class="client__list">
-          <div class="card round-circle">
+        <div class="client__list owl-carousel owl-carousel3">
+          <div class="card round-circle rounded border border-dark">
             <div class="card-body">
               <p class="card-text">
                 It was nice trip planned for Manali with my friends . All
@@ -1001,7 +816,7 @@
               </p>
             </div>
           </div>
-          <div class="card round-circle">
+          <div class="card round-circle rounded border border-dark">
             <div class="card-body">
               <p class="card-text">
                 It was nice trip planned for Manali with my friends . All
@@ -1017,7 +832,7 @@
               </p>
             </div>
           </div>
-          <div class="card round-circle">
+          <div class="card round-circle rounded border-dark border">
             <div class="card-body">
               <p class="card-text">
                 It was nice trip planned for Manali with my friends . All
@@ -1195,446 +1010,75 @@
     </section>
 
     <section>
-      <div class="container">
-        <div
-          id="carouselExampleControls"
-          class="carousel slide"
-          data-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="cards-wrapper">
-                <div
-                  class="card"
-                  style="background-image: url('public/assest/image/pool.jpg')"
-                >
-                  <div class="card-body mt-5">
-                    <h5 class="card-title mt-5">Card title</h5>
-                    <br /><br />
-                    <p class="card-text text-light mt-5">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-
-                <div
-                  class="card d-none d-md-block"
-                  style="background-image: url('public/assest/image/1.jpg')"
-                >
-                  <div class="card-body mt-5">
-                    <h5 class="card-title mt-5">Card title</h5>
-                    <br /><br />
-                    <p class="card-text text-light mt-5">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-
-                <div
-                  class="card d-none d-md-block"
-                  style="background-image: url('public/assest/image/2.jpg')"
-                >
-                  <div class="card-body mt-5">
-                    <h5 class="card-title mt-5">Card title</h5>
-                    <br /><br />
-                    <p class="card-text text-light mt-5">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-
-                <div
-                  class="card d-none d-md-block"
-                  style="background-image: url('public/assest/image/3.jpg')"
-                >
-                  <div class="card-body mt-5">
-                    <h5 class="card-title mt-5">Card title</h5>
-                    <br /><br />
-                    <p class="card-text text-light mt-5">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <div class="cards-wrapper">
-                <div
-                  class="card"
-                  style="background-image: url('public/assest/image/4.jpg')"
-                >
-                  <div class="card-body mt-5">
-                    <h5 class="card-title mt-5">Card title</h5>
-                    <br /><br />
-                    <p class="card-text text-light mt-5">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-
-                <div
-                  class="card d-none d-md-block"
-                  style="background-image: url('public/assest/image/1.jpg')"
-                >
-                  <div class="card-body mt-5">
-                    <h5 class="card-title mt-5">Card title</h5>
-                    <br /><br />
-                    <p class="card-text text-light mt-5">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-
-                <div
-                  class="card d-none d-md-block"
-                  style="background-image: url('public/assest/image/2.jpg')"
-                >
-                  <div class="card-body mt-5">
-                    <h5 class="card-title mt-5">Card title</h5>
-                    <br /><br />
-                    <p class="card-text text-light mt-5">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-
-                <div
-                  class="card d-none d-md-block"
-                  style="background-image: url('public/assest/image/3.jpg')"
-                >
-                  <div class="card-body mt-5">
-                    <h5 class="card-title mt-5">Card title</h5>
-                    <br /><br />
-                    <p class="card-text text-light mt-5">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <div class="cards-wrapper">
-                <div
-                  class="card d-none d-md-block"
-                  style="background-image: url('public/assest/image/4.jpg')"
-                >
-                  <div class="card-body mt-5">
-                    <h5 class="card-title mt-5">Card title</h5>
-                    <br /><br />
-                    <p class="card-text text-light mt-5">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-
-                <div
-                  class="card d-none d-md-block"
-                  style="background-image: url('public/assest/image/2.jpg')"
-                >
-                  <div class="card-body mt-5">
-                    <h5 class="card-title mt-5">Card title</h5>
-                    <br /><br />
-                    <p class="card-text text-light mt-5">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-
-                <div
-                  class="card d-none d-md-block"
-                  style="background-image: url('public/assest/image/1.jpg')"
-                >
-                  <div class="card-body mt-5">
-                    <h5 class="card-title mt-5">Card title</h5>
-                    <br /><br />
-                    <p class="card-text text-light mt-5">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-
-                <div
-                  class="card d-none d-md-block"
-                  style="background-image: url('public/assest/image/4.jpg')"
-                >
-                  <div class="card-body mt-5">
-                    <h5 class="card-title mt-5">Card title</h5>
-                    <br /><br />
-                    <p class="card-text text-light mt-5">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-              </div>
+     
+      <div class="client__list container owl-carousel owl-carousel3">
+        <div class="card round-circle ">
+          <div
+            class="card "
+            style="background-image: url('public/assest/image/4.jpg')"
+          >
+            <div class="card-body mt-5">
+              <h5 class="card-title mt-5">Card title</h5>
+              <br /><br />
+              <p class="card-text text-light mt-5">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
             </div>
           </div>
-          <a
-            class="carousel-control-prev"
-            href="#carouselExampleControls"
-            role="button"
-            data-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a
-            class="carousel-control-next"
-            href="#carouselExampleControls"
-            role="button"
-            data-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
         </div>
+        <div class="card round-circle ">
+          <div
+            class="card "
+            style="background-image: url('public/assest/image/2.jpg')"
+          >
+            <div class="card-body mt-5">
+              <h5 class="card-title mt-5">Card title</h5>
+              <br /><br />
+              <p class="card-text text-light mt-5">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card round-circle ">
+          <div
+            class="card "
+            style="background-image: url('public/assest/image/1.jpg')"
+          >
+            <div class="card-body mt-5">
+              <h5 class="card-title mt-5">Card title</h5>
+              <br /><br />
+              <p class="card-text text-light mt-5">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+  
       </div>
     </section>
 
     <section>
-      <div class="container">
-        <div
-          id="carouselExampleControls"
-          class="carousel slide"
-          data-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="cards-wrapper">
-                <div class="card">
-                  <img
-                    src="https://travelnworld.com/public/assest/image/room1.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-
-                <div class="card d-none d-md-block">
-                  <img
-                    src="https://travelnworld.com/public/assest/image/pool.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-
-                <div class="card d-none d-md-block">
-                  <img
-                    src="https://travelnworld.com/public/assest/image/pool.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-
-                <div class="card d-none d-md-block">
-                  <img
-                    src="https://travelnworld.com/public/assest/image/pool.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <div class="cards-wrapper">
-                <div class="card">
-                  <img
-                    src="https://travelnworld.com/public/assest/image/pool.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-
-                <div class="card d-none d-md-block">
-                  <img
-                    src="https://travelnworld.com/public/assest/image/pool.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-
-                <div class="card d-none d-md-block">
-                  <img
-                    src="https://travelnworld.com/public/assest/image/pool.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-
-                <div class="card d-none d-md-block">
-                  <img
-                    src="https://travelnworld.com/public/assest/image/pool.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <div class="cards-wrapper">
-                <div class="card">
-                  <img
-                    src="https://travelnworld.com/public/assest/image/pool.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-
-                <div class="card d-none d-md-block">
-                  <img
-                    src="https://travelnworld.com/public/assest/image/pool.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-
-                <div class="card d-none d-md-block">
-                  <img
-                    src="https://travelnworld.com/public/assest/image/pool.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-
-                <div class="card d-none d-md-block">
-                  <img
-                    src="https://travelnworld.com/public/assest/image/pool.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+      <div class="container owl-carousel owl-carousel3">
+        <div class="card">
+          <img
+            src="https://travelnworld.com/public/assest/image/room1.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and
+              make up the bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
-          <a
-            class="carousel-control-prev"
-            href="#carouselExampleControls"
-            role="button"
-            data-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a
-            class="carousel-control-next"
-            href="#carouselExampleControls"
-            role="button"
-            data-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
         </div>
+      
       </div>
     </section>
 

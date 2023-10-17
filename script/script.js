@@ -25,3 +25,114 @@ $("#chooseFile").bind("change", function () {
     $("#noFile").text(filename.replace("C:\\fakepath\\", ""));
   }
 });
+
+// $("#homePage__carousel1").owlCarousel({
+//   center: true,
+  // autoplay: true,
+//   autoplay: true,
+//   stagePadding: 20,
+//   autoplayTimeout: 3000,
+//   autoplayHoverPause: true,
+//   items: 1,
+//   responsive: {
+//     768: {
+//       items: 2,
+//     },
+    // 480: {
+    //   items: 2,
+    // },
+    // 320: {
+    //   items: 1,
+    // },
+//   },
+// });
+// $(document).ready(function(){
+//   $("#homePage__carousel1").owlCarousel({
+//       center: true,
+//   autoplay: true,
+//   autoplay: true,
+//   stagePadding: 20,
+//   autoplayTimeout: 3000,
+//   autoplayHoverPause: true,
+//   items: 1,
+//     responsive: {
+//     768: {
+//       items: 2,
+//     },
+//     480: {
+//       items: 2,
+//     },
+//     320: {
+//       items: 1,
+//     },
+//   },
+   
+//   });
+// });
+
+$(document).ready(function(){
+  $(".owl-carousel1").owlCarousel({
+    autoplay: true,
+    stagePadding: 20,
+    autoplayTimeout: 500,
+    autoplayHoverPause: true,
+    dots: true,
+    items: 1,
+    loop: true,
+    responsive: {
+      768: {
+        items: 5,
+      },
+      480: {
+        items: 3,
+      },
+      320: {
+        items: 2,
+      },
+    },
+  });
+});
+$(document).ready(function(){
+  $(".owl-carousel2").owlCarousel({
+    autoplay: true,
+    stagePadding: 20,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    dots: true,
+    items: 1,
+    loop: true,
+    responsive: {
+      768: {
+        items: 5,
+      },
+      480: {
+        items: 3,
+      },
+      320: {
+        items: 2,
+      },
+    },
+  });
+});
+$(document).ready(function(){
+  $(".owl-carousel3").owlCarousel({
+    autoplay: true,
+    stagePadding: 20,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    dots: true,
+    items: 1,
+    loop: true,
+    responsive: {
+      768: {
+        items: 3,
+      },
+      480: {
+        items: 3,
+      },
+      320: {
+        items: 2,
+      },
+    },
+  });
+});
