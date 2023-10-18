@@ -155,11 +155,10 @@ $(document).ready(function(){
         items: 2,
       },
 
-      480: {
+      
+      300: {
         items: 1,
-      },
-      320: {
-        items: 1,
+        stagePadding: 5,
       },
     },
   });

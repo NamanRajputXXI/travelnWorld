@@ -746,13 +746,11 @@ max-width: 100px;
   }
   .card-text{
     font-size: 12px;
+    width: 80%;
   }
-.review_card{
- 
- 
-}
-.client__list{
-
+.user__rating{
+  font-size: 13px;
+  width: 100%;
 }
 }
 @media (max-width: 380px) {
