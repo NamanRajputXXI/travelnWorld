@@ -130,10 +130,36 @@ $(document).ready(function(){
         items: 3,
       },
       480: {
-        items: 3,
+        items: 2,
       },
       320: {
+        items: 1,
+      },
+    },
+  });
+});
+$(document).ready(function(){
+  $(".owl-carousel4").owlCarousel({
+    autoplay: true,
+    stagePadding: 20,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    dots: true,
+    items: 1,
+    loop: true,
+    responsive: {
+      1048:{
+        items: 3
+      },
+      768: {
         items: 2,
+      },
+
+      480: {
+        items: 1,
+      },
+      320: {
+        items: 1,
       },
     },
   });
