@@ -99,11 +99,13 @@ $(document).ready(function(){
     autoplayTimeout: 3000,
     autoplayHoverPause: true,
     dots: true,
+    startPosition : 1,
     items: 1,
+    
     loop: true,
     responsive: {
       768: {
-        items: 5,
+        items: 4,
       },
       480: {
         items: 3,
