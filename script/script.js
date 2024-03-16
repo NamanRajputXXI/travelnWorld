@@ -26,51 +26,7 @@ $("#chooseFile").bind("change", function () {
   }
 });
 
-// $("#homePage__carousel1").owlCarousel({
-//   center: true,
-  // autoplay: true,
-//   autoplay: true,
-//   stagePadding: 20,
-//   autoplayTimeout: 3000,
-//   autoplayHoverPause: true,
-//   items: 1,
-//   responsive: {
-//     768: {
-//       items: 2,
-//     },
-    // 480: {
-    //   items: 2,
-    // },
-    // 320: {
-    //   items: 1,
-    // },
-//   },
-// });
-// $(document).ready(function(){
-//   $("#homePage__carousel1").owlCarousel({
-//       center: true,
-//   autoplay: true,
-//   autoplay: true,
-//   stagePadding: 20,
-//   autoplayTimeout: 3000,
-//   autoplayHoverPause: true,
-//   items: 1,
-//     responsive: {
-//     768: {
-//       items: 2,
-//     },
-//     480: {
-//       items: 2,
-//     },
-//     320: {
-//       items: 1,
-//     },
-//   },
-   
-//   });
-// });
-
-$(document).ready(function(){
+$(document).ready(function () {
   $(".owl-carousel1").owlCarousel({
     autoplay: true,
     stagePadding: 20,
@@ -92,16 +48,16 @@ $(document).ready(function(){
     },
   });
 });
-$(document).ready(function(){
+$(document).ready(function () {
   $(".owl-carousel2").owlCarousel({
     autoplay: true,
     stagePadding: 20,
     autoplayTimeout: 3000,
     autoplayHoverPause: true,
     dots: true,
-    startPosition : 1,
+    startPosition: 1,
     items: 1,
-    
+
     loop: true,
     responsive: {
       768: {
@@ -116,7 +72,7 @@ $(document).ready(function(){
     },
   });
 });
-$(document).ready(function(){
+$(document).ready(function () {
   $(".owl-carousel3").owlCarousel({
     autoplay: true,
     stagePadding: 20,
@@ -138,7 +94,7 @@ $(document).ready(function(){
     },
   });
 });
-$(document).ready(function(){
+$(document).ready(function () {
   $(".owl-carousel4").owlCarousel({
     autoplay: true,
     stagePadding: 20,
@@ -148,14 +104,13 @@ $(document).ready(function(){
     items: 1,
     loop: true,
     responsive: {
-      1048:{
-        items: 3
+      1048: {
+        items: 3,
       },
       768: {
         items: 2,
       },
 
-      
       300: {
         items: 1,
         stagePadding: 5,
